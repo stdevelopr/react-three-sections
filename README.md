@@ -1,6 +1,6 @@
 # react-three-sections
 
-Create sections for a react three canvas, and add a scroll bar to it.
+Create sections for a react three canvas, and add a scrollbar to it.
 
 # Instalation
 
