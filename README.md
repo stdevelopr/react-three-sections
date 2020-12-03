@@ -11,7 +11,7 @@ Create sections for a react three canvas, and add a scrollbar to it.
 Wrap your react-three-fiber canvas with a Scanvas and put your code inside a Section tag. Each Section will be rendered with a full viewport height that can be scrolled. Set an offset property defining the position in the canvas, starting at 1.
 
 ```
-import { Scanvas, Section } from "react-three-sections"
+import { Scanvas, Section } from "@stdevelopr/react-three-sections"
 
 <Scanvas>
     // react-three-fiber Canvas
