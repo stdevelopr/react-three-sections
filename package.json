@@ -1,0 +1,38 @@
+{
+  "name": "@stdevelopr/react-three-sections",
+  "version": "1.0.2",
+  "description": "Create sections for a react-three canvas and add a scrollbar to it",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stdevelopr/react-three-sections.git"
+  },
+  "keywords": [
+    "react-three",
+    "canvas",
+    "sections"
+  ],
+  "author": "stdevelopr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stdevelopr/react-three-sections/issues"
+  },
+  "homepage": "https://github.com/stdevelopr/react-three-sections#readme",
+  "dependencies": {
+    "lerp": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-three-fiber": "^5.3.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
