@@ -1,4 +1,4 @@
-import React, { createContext, useRef, useContext } from "react";
+import React, { createContext, useRef, useContext, Fragment } from "react";
 import { useFrame, useThree } from "react-three-fiber";
 import lerp from "lerp";
 
@@ -17,13 +17,13 @@ function Scanvas({ children }) {
     top = e.target.scrollTop;
   };
   return (
-    <>
+    <Fragment>
       {children}
       <div className="scrollArea" ref={scrollArea} onScroll={onScroll}>
         <div style={{ position: "sticky", top: 0 }} ref={domContent}></div>
         <div style={{ height: `${sections_array.length * 100}vh` }}></div>
       </div>
-    </>
+    </Fragment>
   );
 }
 
